@@ -1,4 +1,4 @@
-turn_src = files(['main.cc'])
+turn_src = files(['geometricVector.h', 'main.cc'])
 executable(
 	'turn',
 	include_directories: src,
